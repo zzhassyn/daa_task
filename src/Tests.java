@@ -1,20 +1,18 @@
 public class Tests {
     public static void main(String[] args) {
 
-        BST bst = new BST();
+        HashTable table = new HashTable();
 
-        bst.insert(8);
-        bst.insert(3);
-        bst.insert(10);
-        bst.insert(1);
-        bst.insert(6);
+        table.insert(10);
+        table.insert(20);
+        table.insert(30);
 
-        System.out.println(bst.contains(6));
-        System.out.println(bst.contains(99));
+        System.out.println(table.contains(20));
+        System.out.println(table.contains(99));
 
-        bst.delete(3);
+        table.delete(20);
 
-        System.out.println(bst.contains(3));
-        System.out.println(bst.size());
+        System.out.println(table.contains(20));
+        System.out.println(table.size());
     }
 }
