@@ -1,4 +1,5 @@
-In this work, I compared Binary Search Tree and Hash Table. For the test, I used the elements specified in the task and tested insert, search and delete. At first, I didn't use resizing in my Hash Table. Because of this, the Hash Table was slow for 10000 elements.
+In this work, I compared Binary Search Tree and Hash Table. For the test, I used the elements specified in the task and tested insert, search and delete. 
+At first, I didn't use resizing in my Hash Table. Because of this, the Hash Table was slow for 10000 elements.
 Before resizing
 10000,HashTable,insert,16694300
 10000,HashTable,search,15118660
