@@ -9,5 +9,9 @@ After
 10000,HashTable,insert,4072340
 10000,HashTable,search,553180
 10000,HashTable,delete,680680
-Binary search tree usually has O(log n) time for insert, search and delete, but in the worst case it can be O(n). Hash Table usually has O(1) time, but in the worst case it can be O(n). Hash Table was faster for search and delete. Binary search tree was faster for insert with 1000 and 10000 elements. Hash Table can be slower during insert because it sometimes needs resizing. Binary search tree can be slower if the tree is not balanced. Hash Table can be slower if many values go to the same place. For fast search, I think Hash Table is better. Binary search tree is useful when we need data in order.
-So, in my test, Hash Table was better for search and delete, but Binary search tree was better for insert with bigger input sizes. Binary search tree is also useful when we need data in order.
+Binary search tree usually has O(log n) time for insert, search and delete, but in the worst case it can be O(n). Hash Table usually has O(1) time, but in the worst 
+case it can be O(n). Hash Table was faster for search and delete. Binary search tree was faster for insert with 1000 and 10000 elements. Hash Table can be slower 
+during insert because it sometimes needs resizing. Binary search tree can be slower if the tree is not balanced. Hash Table can be slower if many values go to the 
+same place. For fast search, I think Hash Table is better. Binary search tree is useful when we need data in order.
+So, in my test, Hash Table was better for search and delete, but Binary search tree was better for insert with bigger input sizes. Binary search tree is also useful 
+when we need data in order.
